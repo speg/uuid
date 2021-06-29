@@ -1,0 +1,17 @@
+name: uuid
+version: 0.1.0
+
+authors:
+  - speg
+
+dependencies:
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+
+targets:
+  uuid:
+    main: src/uuid.cr
+
+crystal: 1.0.0
+
+license: MIT
