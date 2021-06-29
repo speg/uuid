@@ -4,12 +4,14 @@
 
 On MacOS 11.2.3 the following works (after `shards install`):
 
-````shell
+```shell
 uuid % crystal run src/uuid.cr 
 e63fac52-ef8c-49a9-b5f2-3d6f436c4de8
 ```
 
-However, I have yet to been able to build for linux.
+Presumably becasue macOS comes with a verison of SQLite3 that has the uuid extension?
+
+However, I have yet to been able to build a statically linked version for linux.
 
 A sample Dockerfile is included:
 
